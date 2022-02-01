@@ -7,6 +7,7 @@
 @import "./footer.css";
 @import "./site-styles/docs.css";
 @import "./grid.css";
+@import "./components/button.css";
 
 img {
   max-width: 100%;
