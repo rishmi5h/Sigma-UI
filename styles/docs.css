@@ -1,3 +1,6 @@
+* {
+  /* background-color: var(--black); */
+}
 .main {
   grid-template-areas: "sidebar content content content";
   padding: 1rem;
