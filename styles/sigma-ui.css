@@ -9,6 +9,13 @@
 @import "./grid.css";
 @import "./components/button.css";
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 img {
   max-width: 100%;
 }
