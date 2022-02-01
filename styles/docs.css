@@ -1,5 +1,6 @@
 * {
-  /* background-color: var(--black); */
+  /* background-color: var(--black);
+  color: var(--white); */
 }
 .main {
   grid-template-areas: "sidebar content content content";
@@ -29,4 +30,8 @@ ul a:hover {
 .sidebar a,
 .sidebar h2 {
   color: var(--grey);
+}
+
+i {
+  /* color: var(--white); */
 }
