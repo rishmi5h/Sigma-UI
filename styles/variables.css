@@ -1,5 +1,8 @@
 :root {
   --primary-color: #7c3aed;
   --secondary-color: #f5f3ff;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #8b949e;
   --box-shadow: 0px 0px 5px -3px black;
 }

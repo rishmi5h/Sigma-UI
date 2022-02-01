@@ -19,6 +19,11 @@ li {
 }
 
 ul a:hover {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   padding: 0.25rem;
+}
+
+.sidebar a,
+.sidebar h2 {
+  color: var(--grey);
 }
