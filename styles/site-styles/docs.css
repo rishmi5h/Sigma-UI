@@ -1,21 +1,13 @@
-* {
-  /* background-color: var(--black);
-  color: var(--white); */
-}
 .main {
-  grid-template-areas: "sidebar content content content";
+  grid-template-areas: "sidebar components components components";
   padding: 1rem;
 }
 .sidebar {
   grid-area: sidebar;
 }
-.content {
-  grid-area: content;
+.components {
+  grid-area: components;
 }
-
-/* aside {
-  padding: 1rem;
-} */
 
 li {
   margin: 1rem;

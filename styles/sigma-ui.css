@@ -1,0 +1,20 @@
+@import "./variables.css";
+@import "./logo.css";
+@import "./link.css";
+@import "./list.css";
+@import "./navbar.css";
+@import "./sidebar.css";
+@import "./footer.css";
+@import "./site-styles/docs.css";
+@import "./grid.css";
+
+img {
+  max-width: 100%;
+}
+.img {
+  width: 40vw;
+}
+main {
+  display: flex;
+  padding: 1rem;
+}
