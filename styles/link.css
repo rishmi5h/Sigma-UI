@@ -1,0 +1,24 @@
+.link-no-style {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+a:active {
+  color: var(--primary-color);
+}
+i {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+i:hover {
+  color: var(--primary-color);
+}

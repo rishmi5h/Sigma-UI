@@ -1,0 +1,20 @@
+nav {
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 10vh;
+  padding: 1rem;
+}
+
+.nav-section {
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.nav-section-items {
+  padding: 0 1rem;
+}

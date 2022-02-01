@@ -1,0 +1,24 @@
+.main {
+  grid-template-areas: "sidebar content content content";
+  padding: 1rem;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+}
+
+aside {
+  padding: 1rem;
+}
+
+li {
+  margin: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+ul a:hover {
+  background-color: var(--secondary-color);
+  padding: 0.25rem;
+}
