@@ -5,15 +5,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   min-height: 10vh;
   padding: 1rem;
 }
 
 .nav-section {
-  /* display: flex; */
-  /* align-items: center; */
+  display: flex;
+  /* align-items: center;
+  /* text-align: center; */
 }
 
 .nav-section-items {
