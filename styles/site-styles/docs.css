@@ -1,8 +1,10 @@
+@import "./component-display.css";
 .main {
   grid-template-areas: "sidebar components components components";
   padding: 1rem;
 }
 .sidebar {
+  padding: 3rem;
   grid-area: sidebar;
 }
 .components {
@@ -10,13 +12,13 @@
 }
 
 li {
-  margin: 1rem;
-  padding: 0rem 0.5rem;
+  margin: 1.5rem;
+  padding: 0.5rem 1rem;
 }
 
 ul a:hover {
-  /* background-color: var(--secondary-color); */
   padding: 0.25rem;
+  color: var(--primary-color);
 }
 
 .sidebar a,

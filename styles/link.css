@@ -1,6 +1,6 @@
 .link-no-style {
   text-decoration: none;
-  color: black;
+  color: var(--color);
   background-color: transparent;
   font-weight: 600;
   border: none;
@@ -17,7 +17,7 @@ a:active {
 }
 i {
   font-size: 1.5rem;
-  color: black;
+  color: var(--color);
   cursor: pointer;
 }
 i:hover {

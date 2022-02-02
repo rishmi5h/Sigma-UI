@@ -1,0 +1,22 @@
+.component-intro {
+  /* padding: 1rem; */
+  /* text-align: center; */
+  margin: 2rem 0;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.component-display {
+  height: 150px;
+  /* background-color: var(--grey); */
+  border: 1px solid var(--secondary-color);
+  margin: 1rem 0rem;
+}
+
+.component-code-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
