@@ -1,7 +1,6 @@
 @import "./component-display.css";
 .main {
   grid-template-areas: "sidebar components components components";
-  padding: 1rem;
 }
 .sidebar {
   padding: 3rem;

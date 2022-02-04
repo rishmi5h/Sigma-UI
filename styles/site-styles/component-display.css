@@ -12,11 +12,11 @@ h2 {
   height: 150px;
   /* background-color: var(--grey); */
   border: 1px solid var(--secondary-color);
-  margin: 1rem 0rem;
+  margin: 1rem;
 }
 
 .component-code-display {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
 }
