@@ -9,13 +9,17 @@ h2 {
 }
 
 .component-display {
-  height: 150px;
   /* background-color: var(--grey); */
+  display: flex;
+  align-items: center;
   border: 1px solid var(--secondary-color);
   margin: 1rem;
 }
 
-.component-code-display {
+.avatar {
+  margin: 1rem;
+}
+.component-code {
   display: flex;
   justify-content: center;
   margin-top: 2rem;

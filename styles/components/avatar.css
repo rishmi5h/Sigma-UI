@@ -1,0 +1,24 @@
+.avatar {
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+}
+
+.avatar-lg {
+  width: 10rem;
+  height: 10rem;
+}
+.avatar-md {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.avatar-sm {
+  width: 3rem;
+  height: 3rem;
+}
+.avatar-xs {
+  width: 2rem;
+  height: 2rem;
+}
+.avatar-text {
+  background-color: var(--secondary-color);
+}
