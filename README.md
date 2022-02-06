@@ -1,7 +1,7 @@
 # ΣUI
 
 ### Sigma Rule #1 : Use ΣUI
-**ΣUI** is a Component Libra: ry that helps in building UI faster and easier.
+**ΣUI** is a Component Library that helps in building UI faster and easier.
 
 # Installation
 
