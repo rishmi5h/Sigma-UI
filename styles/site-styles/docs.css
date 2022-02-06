@@ -1,4 +1,7 @@
 @import "./component-display.css";
+html {
+  scroll-behavior: smooth;
+}
 .main {
   grid-template-areas: "sidebar components components components";
 }
