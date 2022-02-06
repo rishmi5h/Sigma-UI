@@ -3,8 +3,10 @@
   grid-template-areas: "sidebar components components components";
 }
 .sidebar {
-  padding: 3rem;
-  grid-area: sidebar;
+  /* grid-area: sidebar; */
+  /* position: -webkit-sticky; */
+  /* position: sticky;
+  top: 0; */
 }
 .components {
   grid-area: components;
