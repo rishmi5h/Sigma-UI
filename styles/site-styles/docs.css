@@ -18,6 +18,8 @@ li {
 ul a:hover {
   padding: 0.25rem;
   color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px var(--secondary-color);
 }
 
 .sidebar a,

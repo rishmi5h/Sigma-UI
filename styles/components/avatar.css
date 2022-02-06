@@ -1,6 +1,6 @@
 .avatar {
   border-radius: 50%;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--black);
 }
 
 .avatar-lg {

@@ -21,16 +21,25 @@ h3 {
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  border: 1px solid var(--secondary-color);
-  border-radius: 5px;
+  border: 1px solid var(--background-color);
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 2px 1px var(--color); */
+  box-shadow: 8px -8px 12px 0 #0000004d, -12px 12px 16px #ffffff40;
   /* margin: 1rem; */
 }
 
 .avatar {
   margin: 1rem;
+  box-shadow: 12px 12px 16px 0 #00000040, -8px -8px 12px 0 #ffffff4d;
 }
 .component-code {
   /* display: flex; */
   /* justify-content: center; */
   /* margin-top: 2rem; */
+  max-height: 400px;
+  width: 100%;
+  overflow: auto;
+  /* box-shadow: 8px -8px 12px 0 #0000004d, -12px 12px 16px #ffffff40; */
+  /* background-color: var(--white); */
+  margin-right: 1rem;
 }
