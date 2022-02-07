@@ -31,3 +31,8 @@ ul a:hover {
 .sidebar h2 {
   color: var(--grey);
 }
+
+i,
+span {
+  background-color: inherit;
+}
