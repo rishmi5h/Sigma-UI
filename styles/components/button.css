@@ -57,6 +57,9 @@
   color: var(--primary-color);
 }
 
+.fa-plus {
+  color: var(--white);
+}
 .floating-action-btn {
   background-color: var(--black);
   padding: 0.5rem;
