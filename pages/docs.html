@@ -1,291 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sigma-UI | Docs</title>
-  <link rel="stylesheet" href="../styles/main.css" />
-  <link rel="stylesheet" href="../styles/sigma-ui.css" />
-  <script src="https://kit.fontawesome.com/2e19b7c0b2.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav>
-    <div class="nav-section">
-      <button class="nav-section-items btn">
-        <a class="logo" href="../index.html">ΣUI</a>
-      </button>
-      <button class="nav-section-items btn">
-        <a class="link-no-style" href="../index.html">Home</a>
-      </button>
-      <button class="nav-section-items btn">
-        <a class="link-no-style" href="installation.html">Installation</a>
-      </button>
-      <button class="nav-section-items btn">
-        <a class="link-no-style" href="docs.html">Docs</a>
-      </button>
-    </div>
-    <div class="nav-section">
-      <i class="fas fa-moon nav-section-items theme-switch"></i>
-      <a class="link-no-style" target="_blank" href="https://www.linkedin.com/in/rishmish/"><i
-          class="fab fa-linkedin nav-section-items"></i></a>
-      <!-- <a
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma-UI | Docs</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/sigma-ui.css" />
+    <script
+      src="https://kit.fontawesome.com/2e19b7c0b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-section">
+        <button class="nav-section-items btn">
+          <a class="logo" href="../index.html">ΣUI</a>
+        </button>
+        <button class="nav-section-items btn">
+          <a class="link-no-style" href="../index.html">Home</a>
+        </button>
+        <button class="nav-section-items btn">
+          <a class="link-no-style" href="installation.html">Installation</a>
+        </button>
+        <button class="nav-section-items btn">
+          <a class="link-no-style" href="docs.html">Docs</a>
+        </button>
+      </div>
+      <div class="nav-section">
+        <i class="fas fa-moon nav-section-items theme-switch"></i>
+        <a
+          class="link-no-style"
+          target="_blank"
+          href="https://www.linkedin.com/in/rishmish/"
+          ><i class="fab fa-linkedin nav-section-items"></i
+        ></a>
+        <!-- <a
           class="link-no-style"
           target="_blank"
           href="https://twitter.com/rishabhmishrabu"
           ><i class="fab fa-twitter nav-section-items"></i
         ></a> -->
-      <a class="link-no-style" target="_blank" href="https://github.com/rishimish"><i
-          class="fab fa-github nav-section-items"></i></a>
-    </div>
-  </nav>
-  <div class="main grid-4-column-layout">
-    <aside class="sidebar p-4">
-      <h3>Components</h3>
-      <ul>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#avatar"> Avatar </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#alert"> Alert </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#badge"> Badge </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#button"> Button </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#card"> Card </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#image"> Image </a>
-        </li>
-        <li class="list-no-style">
-          <a class="link-no-style" href="#input"> Input </a>
-        </li>
-      </ul>
-    </aside>
-    <div class="components p-r-4">
-      <div id="avatar" class="m-b-4">
-        <div class="component-intro m-t-4 m-b-3">
-          <h1 class="m-b-2">Avatar</h1>
-          <p>
-            Avatar can be used to show user's profile picture on profile
-            information page, on navigation bar, in blogs grid items.
-          </p>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Image Avatar</h3>
-          <p class="m-b-2">
-            Include class <span class="primary-color-text">avatar</span> and
-            for size add class
-            <span class="primary-color-text">avatar-lg</span>,
-            <span class="primary-color-text">avatar-md</span>,
-            <span class="primary-color-text">avatar-sm</span>,
-            <span class="primary-color-text">avatar-xs</span>
-          </p>
-        </div>
-        <div class="component-display m-b-2 m-r-4">
-          <div class="avatar avatar-lg">
-            <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
-          </div>
-          <div class="avatar avatar-md">
-            <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
-          </div>
-          <div class="avatar avatar-sm">
-            <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
-          </div>
-          <div class="avatar avatar-xs">
-            <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
-          </div>
-        </div>
-        <div class="component-code">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E"
-            style="
-                width: 100%;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Text Avatar</h3>
-          <p class="m-b-2">
-            Include class
-            <span class="primary-color-text">avatar-text</span>
-          </p>
-        </div>
-        <div class="component-display m-b-2 m-r-4">
-          <div class="avatar avatar-text avatar-lg">RM</div>
-          <div class="avatar avatar-text avatar-md">UI</div>
-          <div class="avatar avatar-text avatar-sm">YZ</div>
-          <div class="avatar avatar-text avatar-xs">CD</div>
-        </div>
-        <div class="component-code m-r-4">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253ERM%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253EUI%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253EYZ%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253ECD%253C%252Fdiv%253E"
-            style="
-                width: 100%;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
+        <a
+          class="link-no-style"
+          target="_blank"
+          href="https://github.com/rishimish"
+          ><i class="fab fa-github nav-section-items"></i
+        ></a>
       </div>
-      <div id="badge" class="m-t-4">
-        <div class="component-intro m-t-4 m-b-2">
-          <h1 class="m-b-2">Badge</h1>
-          <p>
-            Badges are being used to display a notification count or status
-            information
-          </p>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Badge on Avatars</h3>
-          <p class="m-b-2">
-            Include class
-            <span class="primary-color-text">badge-container</span> and
-            <span class="primary-color-text">status-badge</span>
-            and for various status use
-            <span class="primary-color-text">status-online</span>,
-            <span class="primary-color-text">status-away</span>,
-            <span class="primary-color-text">status-busy</span>,
-            <span class="primary-color-text">status-offline</span>
-          </p>
-        </div>
-        <div class="component-display m-b-2 m-r-4">
-          <div class="badge-container">
+    </nav>
+    <div class="main grid-4-column-layout">
+      <aside class="sidebar p-4">
+        <h3>Components</h3>
+        <ul>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#avatar"> Avatar </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#alert"> Alert </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#badge"> Badge </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#button"> Button </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#card"> Card </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#image"> Image </a>
+          </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#input"> Input </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="components p-r-4">
+        <div id="avatar" class="m-b-4">
+          <div class="component-intro m-t-4 m-b-3">
+            <h1 class="m-b-2">Avatar</h1>
+            <p>
+              Avatar can be used to show user's profile picture on profile
+              information page, on navigation bar, in blogs grid items.
+            </p>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Image Avatar</h3>
+            <p class="m-b-2">
+              Include class <span class="primary-color-text">avatar</span> and
+              for size add class
+              <span class="primary-color-text">avatar-lg</span>,
+              <span class="primary-color-text">avatar-md</span>,
+              <span class="primary-color-text">avatar-sm</span>,
+              <span class="primary-color-text">avatar-xs</span>
+            </p>
+          </div>
+          <div class="component-display m-b-2 m-r-4">
             <div class="avatar avatar-lg">
-              <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
+              <img
+                src="https://i.pravatar.cc/300"
+                alt=""
+                class="responsive-img round-img"
+              />
             </div>
-            <span class="status-badge status-online"></span>
-          </div>
-          <div class="badge-container">
             <div class="avatar avatar-md">
-              <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
+              <img
+                src="https://i.pravatar.cc/300"
+                alt=""
+                class="responsive-img round-img"
+              />
             </div>
-            <span class="status-badge status-away"></span>
-          </div>
-          <div class="badge-container">
             <div class="avatar avatar-sm">
-              <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
+              <img
+                src="https://i.pravatar.cc/300"
+                alt=""
+                class="responsive-img round-img"
+              />
             </div>
-            <span class="status-badge status-busy"></span>
-          </div>
-          <div class="badge-container">
             <div class="avatar avatar-xs">
-              <img src="https://i.pravatar.cc/300" alt="" class="responsive-img round-img" />
+              <img
+                src="https://i.pravatar.cc/300"
+                alt=""
+                class="responsive-img round-img"
+              />
             </div>
-            <span class="status-badge status-offline"></span>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%253C%252Fdiv%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Text Avatar</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">avatar-text</span>
+            </p>
+          </div>
+          <div class="component-display m-b-2 m-r-4">
+            <div class="avatar avatar-text avatar-lg">RM</div>
+            <div class="avatar avatar-text avatar-md">UI</div>
+            <div class="avatar avatar-text avatar-sm">YZ</div>
+            <div class="avatar avatar-text avatar-xs">CD</div>
+          </div>
+          <div class="component-code m-r-4">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253ERM%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253EUI%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253EYZ%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520avatar-text%2522%2520alt%253D%2522avatar%2522%253ECD%253C%252Fdiv%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
-        <div class="component-code">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-busy%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-            style="
-                width: 100%;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Badge on Icons</h3>
-          <p class="m-b-2">
-            Include class
-            <span class="primary-color-text">badge-container</span> and
-            <span class="primary-color-text">icon-badge</span>
-          </p>
-        </div>
-        <div class="component-display m-b-2 m-r-4 p-4 badge-icons">
-          <div class="badge-container m-2">
-            <i class="fas fa-shopping-cart"></i>
-            <span class="icon-badge icon-cart">2</span>
+        <div id="badge" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">Badge</h1>
+            <p>
+              Badges are being used to display a notification count or status
+              information
+            </p>
           </div>
-          <div class="badge-container m-2">
-            <i class="fas fa-envelope"></i>
-            <span class="icon-badge icon-mail">4</span>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Badge on Avatars</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">badge-container</span> and
+              <span class="primary-color-text">status-badge</span>
+              and for various status use
+              <span class="primary-color-text">status-online</span>,
+              <span class="primary-color-text">status-away</span>,
+              <span class="primary-color-text">status-busy</span>,
+              <span class="primary-color-text">status-offline</span>
+            </p>
           </div>
-          <div class="badge-container m-2">
-            <i class="fas fa-bell"></i>
-            <span class="icon-badge icon-bell">3</span>
+          <div class="component-display m-b-2 m-r-4">
+            <div class="badge-container">
+              <div class="avatar avatar-lg">
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt=""
+                  class="responsive-img round-img"
+                />
+              </div>
+              <span class="status-badge status-online"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-md">
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt=""
+                  class="responsive-img round-img"
+                />
+              </div>
+              <span class="status-badge status-away"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-sm">
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt=""
+                  class="responsive-img round-img"
+                />
+              </div>
+              <span class="status-badge status-busy"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-xs">
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt=""
+                  class="responsive-img round-img"
+                />
+              </div>
+              <span class="status-badge status-offline"></span>
+            </div>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-busy%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520status-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Badge on Icons</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">badge-container</span> and
+              <span class="primary-color-text">icon-badge</span>
+            </p>
+          </div>
+          <div class="component-display m-b-2 m-r-4 p-4 badge-icons">
+            <div class="badge-container m-2">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="icon-badge icon-cart">2</span>
+            </div>
+            <div class="badge-container m-2">
+              <i class="fas fa-envelope"></i>
+              <span class="icon-badge icon-mail">4</span>
+            </div>
+            <div class="badge-container m-2">
+              <i class="fas fa-bell"></i>
+              <span class="icon-badge icon-bell">3</span>
+            </div>
+          </div>
+          <div class="component-code m-r-4">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-cart%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-mail%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-bell%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
-        <div class="component-code m-r-4">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=67px&ph=83px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-cart%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-mail%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522icon-badge%2520icon-bell%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-            style="
-                width: 100%;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+        <div id="image" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">Image</h1>
+            <p>
+              Images can be responsive and also can be customised to be round
+              shaped
+            </p>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Responsive Image</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">responsive-img</span>
+              and for making your image Responsive
+            </p>
+          </div>
+          <div class="component-display p-2 m-b-2 m-r-4">
+            <img
+              src="https://picsum.photos/400"
+              alt=""
+              class="responsive-img border-radius-6"
+            />
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520class%253D%2522responsive-img%2522%2520%252F%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Round Image</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">round-img</span> and
+              <span class="primary-color-text">responsive-img</span>
+            </p>
+          </div>
+          <div class="component-display m-b-2 m-r-4 p-4">
+            <img
+              src="https://picsum.photos/200"
+              class="responsive-img round-img"
+            />
+          </div>
+          <div class="component-code m-r-4">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520class%253D%2522responsive-img%2520round-img%2522%2520%252F%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
-      </div>
-      <div id="image" class="m-t-4">
-        <div class="component-intro m-t-4 m-b-2">
-          <h1 class="m-b-2">Image</h1>
-          <p>
-            Images can be responsive and also can be customised to be round shaped
-          </p>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Responsive Image</h3>
-          <p class="m-b-2">
-            Include class
-            <span class="primary-color-text">responsive-img</span>
-            and for making your image Responsive
-          </p>
-        </div>
-        <div class="component-display p-2 m-b-2 m-r-4">
-          <img src="https://picsum.photos/400" alt="" class="responsive-img border-radius-6" />
-        </div>
-        <div class="component-code">
-          <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520class%253D%2522responsive-img%2522%2520%252F%253E"
-          style="
-                  width: 100%;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Round Image</h3>
-          <p class="m-b-2">
-            Include class
-            <span class="primary-color-text">round-img</span> and
-            <span class="primary-color-text">responsive-img</span>
-          </p>
-        </div>
-        <div class="component-display m-b-2 m-r-4 p-4">
-          <img src="https://picsum.photos/200" class="responsive-img round-img" />
-        </div>
-        <div class="component-code m-r-4">
-          <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520class%253D%2522responsive-img%2520round-img%2522%2520%252F%253E"
-          style="
-                  width: 100%;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-          </iframe>
+        <div id="button" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">Button</h1>
+            <p>
+              Buttons can be of many types like primary, link, floating action
+              and more.You can add classes to make required button.
+            </p>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Primary Button</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">btn</span> and
+              <span class="primary-color-text">primary-btn</span>
+              to make primary button.
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <button class="btn primary-btn m-r-3">Primary Solid</button>
+            <button class="btn primary-outline-btn">Primary Outline</button>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%2520Solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-outline-btn%2522%253EPrimary%2520Outline%253C%252Fbutton%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Link and Icon Buttons</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">primary-link-btn</span> and
+              <span class="primary-color-text">icon-btn</span>
+              for link and icon buttons.
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <button class="btn primary-link-btn m-r-3">
+              <a href="#button">link button</a>
+            </button>
+            <button class="btn">
+              <i class="fas fa-moon icon-btn"></i>
+            </button>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-link-btn%2522%253E%250A%2509%253Ca%2520href%253D%2522%2523button%2522%253Elink%2520button%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-moon%2520icon-btn%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Floating Action Button</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">float-action-btn</span>.
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <button class="btn floating-action-btn">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520floating-action-btn%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <script src="../js/theme.js"></script>
-</body>
-
+    <script src="../js/theme.js"></script>
+  </body>
 </html>
