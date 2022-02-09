@@ -20,6 +20,9 @@
 .primary-btn:hover {
   box-shadow: 0 2px 8px var(--black);
 }
+.primary-btn:active {
+  box-shadow: 0 2px 2px var(--black);
+}
 
 .primary-outline-btn {
   border: 1px solid var(--primary-color);
@@ -36,6 +39,9 @@
   background-color: var(--primary-color);
 }
 
+.primary-outline-btn:active {
+  box-shadow: 0 2px 2px var(--black);
+}
 .primary-link-btn {
   text-decoration: underline;
   text-underline-position: under;
@@ -71,4 +77,8 @@
 .floating-action-btn:hover {
   box-shadow: 0 2px 8px var(--black);
   background-color: var(--primary-color);
+}
+
+.floating-action-btn:active {
+  box-shadow: 0 2px 2px var(--black);
 }
