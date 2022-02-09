@@ -1,0 +1,9 @@
+.grey-text {
+  color: var(--grey);
+}
+.primary-color-text {
+  color: var(--primary-color);
+}
+.secondary-color-text {
+  color: var(--secondary-color);
+}

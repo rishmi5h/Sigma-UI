@@ -1,10 +1,15 @@
 @import "./component-display.css";
+html {
+  scroll-behavior: smooth;
+}
 .main {
   grid-template-areas: "sidebar components components components";
 }
 .sidebar {
-  padding: 3rem;
-  grid-area: sidebar;
+  /* grid-area: sidebar; */
+  /* position: -webkit-sticky; */
+  /* position: sticky;
+  top: 0; */
 }
 .components {
   grid-area: components;
@@ -18,9 +23,16 @@ li {
 ul a:hover {
   padding: 0.25rem;
   color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px var(--secondary-color);
 }
 
 .sidebar a,
 .sidebar h2 {
   color: var(--grey);
+}
+
+i,
+span {
+  background-color: inherit;
 }
