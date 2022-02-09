@@ -1,6 +1,7 @@
 .component-display {
   background-color: var(--secondary-color);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--background-color);
@@ -8,6 +9,9 @@
   box-shadow: 8px -8px 12px 0 #0000004d, -12px 12px 16px #ffffff40;
 }
 
+.column {
+  flex-direction: column;
+}
 .avatar {
   margin: 1rem;
   box-shadow: 12px 12px 16px 0 #00000040, -8px -8px 12px 0 #ffffff4d;

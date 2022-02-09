@@ -1,0 +1,31 @@
+.alert {
+  width: 50%;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 12px 12px 16px 0 #00000040, -8px -8px 12px 0 #ffffff4d;
+}
+
+.alert .fa-regular,
+.alert .fas {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.primary-alert {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.warning-alert {
+  background-color: var(--warning);
+  color: var(--warning-text);
+}
+
+.success-alert {
+  background-color: var(--success);
+  color: var(--success-text);
+}
+
+.danger-alert {
+  background-color: var(--danger);
+  color: var(--danger-text);
+}
