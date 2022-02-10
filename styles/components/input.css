@@ -7,7 +7,7 @@ textarea {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 1rem;
-  border: 2px solid var(--grey);
+  border: 2px solid var(--white);
   background-color: var(--white);
   color: var(--black);
   box-shadow: 12px 12px 16px 0 var(--shadow-black),
