@@ -2,6 +2,7 @@
   background-color: var(--bg-color);
   color: var(--color);
 }
+
 nav {
   box-shadow: var(--color);
   display: flex;
@@ -17,6 +18,21 @@ nav {
   /* text-align: center; */
 }
 
+.nav-section .btn:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  box-shadow: none;
+}
+
 .nav-section-items {
   padding: 0 1rem;
+}
+
+.nav-section i {
+  font-size: 1.5rem;
+  color: var(--color);
+  cursor: pointer;
+}
+.nav-section i:hover {
+  color: var(--primary-color);
 }
