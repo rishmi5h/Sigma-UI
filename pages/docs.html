@@ -448,8 +448,85 @@
             </iframe>
           </div>
         </div>
+        <div id="input" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">Input</h1>
+            <p>Inputs are used for taking user inputs in various ways.</p>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Normal Input</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">input-field</span> for normal
+              input and textarea.
+            </p>
+          </div>
+          <div class="component-display column p-3 m-b-2 m-r-4">
+            <input
+              type="text"
+              class="input-field m-b-2"
+              placeholder="Type anything"
+            />
+            <textarea
+              cols="30"
+              class="input-field"
+              placeholder="Enter Paragraph"
+            ></textarea>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Type%2520anything%2522%252F%253E%250A%253Ctextarea%2520cols%253D%252230%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520Paragraph%2522%253E%253C%252Ftextarea%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Validated Inputs</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">input-field</span> and
+              <span class="primary-color-text">input-validation</span>
+              to make Validated Input.
+            </p>
+          </div>
+          <div class="component-display column p-3 m-b-2 m-r-4">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password"
+              class="input-field m-b-2"
+            />
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+              placeholder="Confirm Password"
+              class="input-field input-validation"
+            />
+          </div>
+
+          <div class="component-code">
+            <h3>html</h3>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520id%253D%2522password%2522%250A%2509%2509placeholder%253D%2522Enter%2520Password%2522%2520class%253D%2522input-field%2522%252F%253E%250A%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522confirm-password%2522%2520id%253D%2522confirm-password%2522%250A%2509%2509placeholder%253D%2522Confirm%2520Password%2522%2520class%253D%2522input-field%2520input-validation%2522%252F%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <h3>javascript</h3>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=javascript&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=const%2520inputPassword%2520%253D%2520document.querySelector%28%2522%2523password%2522%29%253B%250Aconst%2520inputConfirmPassword%2520%253D%2520document.querySelector%28%2522%2523confirm-password%2522%29%253B%250A%250Alet%2520password%253B%250Alet%2520confirmPassword%253B%250A%250AinputPassword.addEventListener%28%2522keyup%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520password%2520%253D%2520inputPassword.value%253B%250A%257D%29%253B%250A%250AinputConfirmPassword.addEventListener%28%2522keyup%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520confirmPassword%2520%253D%2520inputConfirmPassword.value%253B%250A%2520%2520confirmPassword%2520%253D%253D%253D%2520password%250A%2520%2520%2520%2520%253F%2520%28inputConfirmPassword.classList.add%28%2522validated%2522%29%252C%250A%2520%2520%2520%2520%2520%2520inputConfirmPassword.classList.remove%28%2522input-validation%2522%29%29%250A%2520%2520%2520%2520%253A%2520%28inputConfirmPassword.classList.remove%28%2522validated%2522%29%252C%250A%2520%2520%2520%2520%2520%2520inputConfirmPassword.classList.add%28%2522input-validation%2522%29%29%253B%250A%257D%29%253B%250A"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
     <script src="../js/theme.js"></script>
+    <script src="../js/input-validation.js"></script>
   </body>
 </html>
