@@ -1,0 +1,32 @@
+input,
+textarea {
+  font-family: inherit;
+}
+
+.input-field {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 2px solid var(--white);
+  background-color: var(--white);
+  color: var(--black);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+}
+
+.input-field:focus {
+  border: 2px solid var(--primary-color);
+  outline: none;
+  box-shadow: 0 2px 6px var(--black);
+}
+
+.input-validation:focus {
+  border: 2px solid var(--busy);
+  outline: none;
+  box-shadow: 0 2px 6px var(--black);
+}
+.validated:focus {
+  border: 2px solid var(--online);
+  outline: none;
+  box-shadow: 0 2px 6px var(--black);
+}

@@ -2,7 +2,8 @@
   width: 50%;
   border-radius: 6px;
   padding: 1rem;
-  box-shadow: 12px 12px 16px 0 #00000040, -8px -8px 12px 0 #ffffff4d;
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
 }
 
 .alert .fa-regular,
