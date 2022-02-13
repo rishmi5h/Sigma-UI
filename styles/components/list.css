@@ -54,3 +54,9 @@
 .list-stacked .avatar {
   box-shadow: none;
 }
+
+ol,
+ul,
+li {
+  background-color: inherit;
+}
