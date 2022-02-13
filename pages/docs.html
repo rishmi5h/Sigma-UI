@@ -75,6 +75,9 @@
           <li class="list-no-style">
             <a class="link-no-style" href="#input"> Input </a>
           </li>
+          <li class="list-no-style">
+            <a class="link-no-style" href="#list"> List </a>
+          </li>
         </ul>
       </aside>
       <div class="components p-r-4">
@@ -518,6 +521,165 @@
             <h3>javascript</h3>
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=javascript&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=const%2520inputPassword%2520%253D%2520document.querySelector%28%2522%2523password%2522%29%253B%250Aconst%2520inputConfirmPassword%2520%253D%2520document.querySelector%28%2522%2523confirm-password%2522%29%253B%250A%250Alet%2520password%253B%250Alet%2520confirmPassword%253B%250A%250AinputPassword.addEventListener%28%2522keyup%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520password%2520%253D%2520inputPassword.value%253B%250A%257D%29%253B%250A%250AinputConfirmPassword.addEventListener%28%2522keyup%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520confirmPassword%2520%253D%2520inputConfirmPassword.value%253B%250A%2520%2520confirmPassword%2520%253D%253D%253D%2520password%250A%2520%2520%2520%2520%253F%2520%28inputConfirmPassword.classList.add%28%2522validated%2522%29%252C%250A%2520%2520%2520%2520%2520%2520inputConfirmPassword.classList.remove%28%2522input-validation%2522%29%29%250A%2520%2520%2520%2520%253A%2520%28inputConfirmPassword.classList.remove%28%2522validated%2522%29%252C%250A%2520%2520%2520%2520%2520%2520inputConfirmPassword.classList.add%28%2522input-validation%2522%29%29%253B%250A%257D%29%253B%250A"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="list" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">List</h1>
+            <p>List are used to show and stack similar elements and items.</p>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Unordered List with bullets.</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">list</span>
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <ul class="list list-disc m-r-4">
+              <li>one</li>
+              <li>two</li>
+              <li>three</li>
+              <li>four</li>
+            </ul>
+            <ul class="list list-square m-r-4">
+              <li>one</li>
+              <li>two</li>
+              <li>three</li>
+              <li>four</li>
+            </ul>
+            <ul class="list list-circle m-r-4">
+              <li>one</li>
+              <li>two</li>
+              <li>three</li>
+              <li>four</li>
+            </ul>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-disc%2522%253E%250A%2509%253Cli%253Eone%253C%252Fli%253E%250A%2509%253Cli%253Etwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Ethree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Efour%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-square%2522%253E%250A%2520%2520%2520%2520%253Cli%253Eone%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Etwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Ethree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Efour%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-circle%2522%253E%250A%2520%2520%2520%2520%253Cli%253Eone%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Etwo%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Ethree%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Efour%253C%252Fli%253E%250A%253C%252Ful%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Ordered List with bullets.</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">list</span>
+              and other based on style.
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <ol class="list list-number m-r-4 m-l-4">
+              <li>Numbered List</li>
+              <li>Numbered List</li>
+              <li>Numbered List</li>
+              <li>Numbered List</li>
+            </ol>
+            <ol class="list list-small-alpha m-r-4 m-l-4">
+              <li>Lower Alphabetical List</li>
+              <li>Lower Alphabetical List</li>
+              <li>Lower Alphabetical List</li>
+              <li>Lower Alphabetical List</li>
+            </ol>
+            <ol class="list list-small-alpha m-r-4 m-l-4" reversed>
+              <li>Reversed List</li>
+              <li>Reversed List</li>
+              <li>Reversed List</li>
+              <li>Reversed List</li>
+            </ol>
+            <ol class="list list-capital-alpha m-r-4 m-l-4">
+              <li>Capital Alphabetical List</li>
+              <li>Capital Alphabetical List</li>
+              <li>Capital Alphabetical List</li>
+              <li>Capital Alphabetical List</li>
+            </ol>
+            <ol class="list list-small-roman m-r-4 m-l-4 m-t-3">
+              <li>Roman List</li>
+              <li>Roman List</li>
+              <li>Roman List</li>
+              <li>Roman List</li>
+            </ol>
+            <ol class="list list-large-roman m-r-4 m-l-4 m-t-3">
+              <li>Roman List</li>
+              <li>Roman List</li>
+              <li>Roman List</li>
+              <li>Roman List</li>
+            </ol>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=502&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list%2520list-number%2522%253E%250A%2520%2520%2520%2520%253Cli%253ENumbered%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENumbered%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENumbered%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ENumbered%2520List%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-small-alpha%2522%253E%250A%2520%2520%2520%2520%253Cli%253ELower%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ELower%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ELower%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ELower%2520Alphabetical%2520List%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-small-alpha%2522%2520reversed%253E%250A%2520%2520%2520%2520%253Cli%253EReversed%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EReversed%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EReversed%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EReversed%2520List%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-capital-alpha%2522%253E%250A%2520%2520%2520%2520%253Cli%253ECapital%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ECapital%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ECapital%2520Alphabetical%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ECapital%2520Alphabetical%2520List%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-small-roman%2522%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-large-roman%2522%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ERoman%2520List%253C%252Fli%253E%250A%253C%252Fol%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of List with no bullets.</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">list</span> and
+              <span class="primary-color-text">list-no-style</span>
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <ol class="list list-no-style m-r-4 m-l-4">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+              <li>List item 4</li>
+            </ol>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=502&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list%2520list-no-style%2522%253E%250A%2509%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25204%253C%252Fli%253E%250A%253C%252Fol%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Stacked List</h3>
+            <p class="m-b-2">
+              Include class
+              <span class="primary-color-text">list</span> and
+              <span class="primary-color-text">list-stacked</span>
+            </p>
+          </div>
+          <div class="component-display p-3 m-b-2 m-r-4">
+            <ul class="list list-stacked m-r-4 m-l-4">
+              <li>
+                <div class="avatar avatar-sm">
+                  <img
+                    src="https://i.pravatar.cc/300"
+                    alt=""
+                    class="responsive-img round-img"
+                  />
+                </div>
+                you have a notification
+              </li>
+              <li>
+                <div class="avatar avatar-sm">
+                  <img
+                    src="https://i.pravatar.cc/400"
+                    alt=""
+                    class="responsive-img round-img"
+                  />
+                </div>
+                you have a notification
+              </li>
+            </ul>
+          </div>
+          <div class="component-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=732&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-stacked%2522%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2509you%2520have%2520a%2520notification%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522responsive-img%2520round-img%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520you%2520have%2520a%2520notification%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
               class="code-snippet"
               sandbox="allow-scripts allow-same-origin"
             >
