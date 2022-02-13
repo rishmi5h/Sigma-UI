@@ -9,7 +9,7 @@ html {
   grid-area: components;
 }
 
-li {
+aside li {
   margin: 1.5rem;
   padding: 0.5rem 1rem;
 }
