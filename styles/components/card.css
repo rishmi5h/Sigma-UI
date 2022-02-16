@@ -1,0 +1,52 @@
+h2,
+p {
+  background-color: inherit;
+}
+
+.card {
+  background-color: var(--white);
+
+  border-radius: 2.5%;
+  overflow: hidden;
+  margin: 3rem;
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+}
+
+.vertical-card {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-card {
+  display: flex;
+  max-width: 30rem;
+}
+
+.text-card {
+  max-width: 15rem;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--black);
+}
+.card-title {
+  color: var(--primary-color);
+}
+
+.card-subtitle {
+  font-size: small;
+  margin-bottom: 0.5rem;
+  color: var(--black);
+}
+
+.card-para {
+  color: var(--grey);
+}
+
+.card .btn {
+  box-shadow: none;
+}
