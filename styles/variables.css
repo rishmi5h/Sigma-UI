@@ -42,8 +42,7 @@
   --success-text: #335e4e;
 }
 [data-theme="dark"] {
-  /* --bg-color: #201e25; */
-  --bg-color: #202124;
+  --bg-color: #111827;
   --color: #ffffff;
   --primary-color: #7c3aed;
   --secondary-color: #c7c6f7;

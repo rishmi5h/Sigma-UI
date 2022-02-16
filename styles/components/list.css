@@ -1,0 +1,62 @@
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  padding-bottom: 1rem;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-circle {
+  list-style-type: circle;
+}
+
+.list-number {
+  list-style-type: decimal;
+}
+
+.list-small-alpha {
+  list-style-type: lower-alpha;
+}
+
+.list-capital-alpha {
+  list-style-type: upper-alpha;
+}
+
+.list-small-roman {
+  list-style-type: lower-roman;
+}
+
+.list-large-roman {
+  list-style-type: upper-roman;
+}
+
+.list-stacked li {
+  padding-right: 1rem;
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+.list-stacked .avatar {
+  box-shadow: none;
+}
+
+ol,
+ul,
+li {
+  background-color: inherit;
+}

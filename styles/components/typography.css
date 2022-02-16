@@ -1,0 +1,60 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  background-color: inherit;
+}
+.xl {
+  font-size: x-large;
+}
+
+.l {
+  font-size: large;
+}
+
+.s {
+  font-size: small;
+}
+
+.xs {
+  font-size: x-small;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-green {
+  color: var(--online);
+}
+
+.text-red {
+  color: var(--busy);
+}
