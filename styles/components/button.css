@@ -65,6 +65,24 @@
   color: var(--primary-color);
 }
 
+.icon-text-btn {
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.icon-text-btn:hover {
+  box-shadow: 0 2px 8px var(--black);
+}
+.icon-text-btn:active {
+  box-shadow: 0 2px 2px var(--shadow-black);
+}
 .fa-plus {
   color: var(--white);
 }
