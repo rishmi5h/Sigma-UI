@@ -1,0 +1,9 @@
+.toast {
+  background-color: var(--grey);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 9rem; */
+}
