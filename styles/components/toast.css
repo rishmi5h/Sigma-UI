@@ -1,9 +1,30 @@
 .toast {
-  background-color: var(--grey);
+  background-color: var(--primary-color);
+  color: var(--white);
   border-radius: 6px;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  width: max-content;
   justify-content: space-between;
-  /* width: 9rem; */
+}
+
+.success-toast {
+  background-color: var(--success);
+  color: var(--success-text);
+}
+.danger-toast {
+  background-color: var(--danger);
+  color: var(--danger-text);
+}
+
+.close {
+  cursor: pointer;
+}
+
+.demo-toast {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }

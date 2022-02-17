@@ -79,6 +79,9 @@
             <a class="link-no-style" href="#list"> List </a>
           </li>
           <li class="list-no-style">
+            <a class="link-no-style" href="#toast"> Toast </a>
+          </li>
+          <li class="list-no-style">
             <a class="link-no-style" href="#typography"> Typography </a>
           </li>
         </ul>
@@ -688,6 +691,61 @@
             </iframe>
           </div>
         </div>
+        <div id="toast" class="m-t-4">
+          <div class="component-intro m-t-4 m-b-2">
+            <h1 class="m-b-2">Toast</h1>
+          </div>
+          <div class="component-type m-t-4">
+            <h3 class="m-b-2">Example of Toast</h3>
+            <p class="m-b-2">
+              Include
+              <span class="text-primary">toast </span>class.
+            </p>
+          </div>
+          <div class="component-display column p-3 m-b-2 m-r-4">
+            <div class="toast m-b-2">
+              Toast
+              <div class="close m-l-4">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            <div class="toast success-toast m-b-2">
+              Success Toast
+              <div class="close m-l-4">
+                <i class="fas fa-times icon-btn"></i>
+              </div>
+            </div>
+            <div class="toast danger-toast">
+              Danger Toast
+              <div class="close m-l-4">
+                <i class="fas fa-times icon-btn"></i>
+              </div>
+            </div>
+          </div>
+          <div class="component-code">
+            html
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=728&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520m-b-2%2522%253EToast%250A%2520%2520%253Cdiv%2520class%253D%2522close%2520m-l-4%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520success-toast%2520m-b-2%2522%253ESuccess%2520Toast%250A%2520%2520%253Cdiv%2520class%253D%2522close%2520m-l-4%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-times%2520icon-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520danger-toast%2522%253EDanger%2520Toast%250A%2520%2520%253Cdiv%2520class%253D%2522close%2520m-l-4%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-times%2520icon-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            js
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=javascript&width=728&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=const%2520demoToast%2520%253D%2520document.querySelector%28%2522%2523demo-toast%2522%29%253B%250Aconst%2520toastDemoBtn%2520%253D%2520document.querySelector%28%2522%2523demo-btn%2522%29%253B%250Aconst%2520btnToCloseToast%2520%253D%2520document.querySelector%28%2522%2523close%2522%29%253B%250A%250Alet%2520timerForToast%253B%250A%250Aconst%2520showToast%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520demoToast.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520timerForToast%2520%253D%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520demoToast.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%252C%25203000%29%253B%250A%257D%253B%250A%250Aconst%2520closeToast%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520clearTimeout%28timerForToast%29%253B%250A%2520%2520demoToast.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%253B%250A%250AtoastDemoBtn.addEventListener%28%2522click%2522%252C%2520showToast%29%253B%250AbtnToCloseToast.addEventListener%28%2522click%2522%252C%2520closeToast%29%253B%250A"
+              class="code-snippet"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <button class="btn primary-btn m-4" id="demo-btn">Demo</button>
+          <div class="toast demo-toast m-b-2" id="demo-toast">
+            Demo Toast
+            <div class="close m-l-4" id="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+        </div>
         <div id="typography" class="m-t-4">
           <div class="component-intro m-t-4 m-b-2">
             <h1 class="m-b-2">Typography</h1>
@@ -788,5 +846,6 @@
     </div>
     <script src="../js/theme.js"></script>
     <script src="../js/input-validation.js"></script>
+    <script src="../js/toast.js"></script>
   </body>
 </html>
