@@ -7,6 +7,7 @@
 @import "./padding.css";
 @import "./margin.css";
 @import "./navbar.css";
+@import "./link.css";
 
 /******** Component Imports *********/
 @import "./components/alert.css";
