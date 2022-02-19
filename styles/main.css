@@ -6,6 +6,7 @@
 @import "./grid.css";
 @import "./padding.css";
 @import "./margin.css";
+@import "./navbar.css";
 
 /******** Component Imports *********/
 @import "./components/alert.css";
