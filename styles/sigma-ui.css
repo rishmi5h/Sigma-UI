@@ -23,6 +23,27 @@ img {
   width: 40vw;
 }
 main {
-  display: flex;
   padding: 1rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  min-height: 75vh;
+}
+
+.code-snippet {
+  width: 100%;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.installation {
+  padding-top: 5rem;
 }

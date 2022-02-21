@@ -20,6 +20,7 @@
 
 .close {
   cursor: pointer;
+  background-color: inherit;
 }
 
 .demo-toast {

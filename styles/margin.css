@@ -23,7 +23,7 @@
 }
 
 .m-lr-1 {
-  margin-bottom: 0 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .m-2 {
@@ -51,7 +51,7 @@
 }
 
 .m-lr-2 {
-  margin-bottom: 0 1rem;
+  margin: 0 1rem;
 }
 
 .m-3 {
@@ -79,7 +79,7 @@
 }
 
 .m-lr-3 {
-  margin-bottom: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 .m-4 {
   margin: 2rem;
@@ -106,5 +106,5 @@
 }
 
 .m-lr-4 {
-  margin-bottom: 0 2rem;
+  margin: 0 2rem;
 }
