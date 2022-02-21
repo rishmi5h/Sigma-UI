@@ -13,8 +13,6 @@ function switchTheme(e) {
       themeSwitch.classList.add("fa-sun");
     }
   }
-  //   console.log(theme);
 }
 
 themeSwitch.addEventListener("click", switchTheme, false);
-// themeSwitch.addEventListener("click", () => console.log("clicked"));
