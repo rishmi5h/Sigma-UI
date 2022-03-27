@@ -775,35 +775,33 @@
       </div>
       <div id="modal" class="m-t-4">
         <div class="component-intro m-t-4 m-b-2">
-          <h1 class="m-b-2">List</h1>
-          <p>List are used to show and stack similar elements and items.</p>
+          <h1 class="m-b-2">Modal</h1>
+          <p>A modal window creates a mode that disables the main window but keeps it visible, with the modal window as
+            a child window in front of it.</p>
         </div>
         <div class="component-type m-t-4">
-          <h3 class="m-b-2">Example of Unordered List with bullets.</h3>
+          <h3 class="m-b-2">Example of Modal</h3>
           <p class="m-b-2">
             Include class
-            <span class="text-primary">list</span>
+            <span class="text-primary">modal</span>
           </p>
         </div>
-        <div class="component-display p-3 m-b-2 m-r-4">
-          <ul class="list list-disc m-r-4">
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-          </ul>
-          <ul class="list list-square m-r-4">
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-          </ul>
-          <ul class="list list-circle m-r-4">
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-          </ul>
+        <button class="btn primary-btn m-4" id="modal-demo-btn">demo</button>
+        <div class="modal p-3 ">
+          <div class="modal-header ">
+            <h2>Modal heading</h2>
+            <div class="modal-close m-l-4" id="modal-close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, cupiditate sequi. Aspernatur ipsa
+              sapiente hic et natus. Suscipit, officiis eveniet!</p>
+          </div>
+          <div class="modal-footer text-center">
+            <button class="btn primary-btn m-r-2">Primary</button>
+            <button class="btn primary-outline-btn">secondary</button>
+          </div>
         </div>
         <div class="component-code">
           <iframe
@@ -886,7 +884,7 @@
             class="code-snippet" sandbox="allow-scripts allow-same-origin">
           </iframe>
         </div>
-        <button class="btn primary-btn m-4" id="demo-btn">Demo</button>
+        <button class="btn primary-btn m-4" id="toast-demo-btn">Demo</button>
         <div class="toast demo-toast m-b-2" id="demo-toast">
           Demo Toast
           <div class="close m-l-4" id="close">
@@ -985,6 +983,7 @@
   <script src="../js/theme.js"></script>
   <script src="../js/input-validation.js"></script>
   <script src="../js/toast.js"></script>
+  <script src="../js/modal.js"></script>
   <script src="../js/rating.js"></script>
 </body>
 
