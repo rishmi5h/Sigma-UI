@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-50-50-layout {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-60-40-layout {
+  grid-template-columns: 3fr 2fr;
+}
+
+.grid-30-70-layout {
+  grid-template-columns: 3fr 7fr;
+}
+
+.grid-30-40-30-layout {
+  grid-template-columns: 3fr 4fr 3fr;
+}
+
+.grid-40-20-40-layout {
+  grid-template-columns: 4fr 2fr 4fr;
+}

@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 @import "./variables.css";
-@import "./grid.css";
 @import "./padding.css";
 @import "./margin.css";
 @import "./navbar.css";
@@ -22,6 +21,7 @@
 @import "./components/rating.css";
 @import "./components/toast.css";
 @import "./components/typography.css";
+@import "./components/grid.css";
 
 *,
 *:before,
