@@ -1,5 +1,5 @@
 const demoToast = document.querySelector("#demo-toast");
-const toastDemoBtn = document.querySelector("#demo-btn");
+const toastDemoBtn = document.querySelector("#toast-demo-btn");
 const btnToCloseToast = document.querySelector("#close");
 
 let timerForToast;
