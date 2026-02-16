@@ -5,3 +5,43 @@
   overflow-y: auto;
   height: calc(100vh - 2rem);
 }
+
+/* Responsive Sidebar */
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    overflow-y: visible;
+    border-bottom: 1px solid var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .sidebar h3 {
+    font-size: 1.25rem;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  aside li {
+    margin: 0.5rem;
+    padding: 0.25rem 0.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    padding: 1rem !important;
+  }
+
+  .sidebar ul {
+    flex-direction: column;
+  }
+
+  aside li {
+    margin: 0.25rem 0;
+  }
+}

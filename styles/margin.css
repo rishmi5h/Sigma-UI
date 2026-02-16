@@ -108,3 +108,62 @@
 .m-lr-4 {
   margin: 0 2rem;
 }
+
+/* Responsive Margin */
+@media screen and (max-width: 768px) {
+  .m-4 {
+    margin: 1.5rem;
+  }
+  .m-l-4, .m-r-4 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .m-t-4, .m-b-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .m-tb-4 {
+    margin: 1.5rem 0;
+  }
+  .m-lr-4 {
+    margin: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .m-4 {
+    margin: 1rem;
+  }
+  .m-l-4, .m-r-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .m-t-4, .m-b-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .m-tb-4 {
+    margin: 1rem 0;
+  }
+  .m-lr-4 {
+    margin: 0 1rem;
+  }
+
+  .m-3 {
+    margin: 0.75rem;
+  }
+  .m-l-3, .m-r-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+  .m-t-3, .m-b-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .m-tb-3 {
+    margin: 0.75rem 0;
+  }
+  .m-lr-3 {
+    margin: 0 0.75rem;
+  }
+}

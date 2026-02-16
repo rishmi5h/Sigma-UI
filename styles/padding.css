@@ -108,3 +108,62 @@
 .p-lr-4 {
   padding-bottom: 0 2rem;
 }
+
+/* Responsive Padding */
+@media screen and (max-width: 768px) {
+  .p-4 {
+    padding: 1.5rem;
+  }
+  .p-l-4, .p-r-4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .p-t-4, .p-b-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .p-tb-4 {
+    padding: 1.5rem 0;
+  }
+  .p-lr-4 {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .p-4 {
+    padding: 1rem;
+  }
+  .p-l-4, .p-r-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .p-t-4, .p-b-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .p-tb-4 {
+    padding: 1rem 0;
+  }
+  .p-lr-4 {
+    padding: 0 1rem;
+  }
+
+  .p-3 {
+    padding: 0.75rem;
+  }
+  .p-l-3, .p-r-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .p-t-3, .p-b-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  .p-tb-3 {
+    padding: 0.75rem 0;
+  }
+  .p-lr-3 {
+    padding: 0 0.75rem;
+  }
+}

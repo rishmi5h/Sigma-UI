@@ -34,3 +34,28 @@ nav {
 .nav-section i:hover {
   color: var(--primary-color);
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0.5rem;
+  }
+
+  .nav-section-items {
+    padding: 0 0.5rem;
+  }
+
+  .nav-section i {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-section-items {
+    padding: 0 0.3rem;
+  }
+
+  .nav-section i {
+    font-size: 1.1rem;
+  }
+}

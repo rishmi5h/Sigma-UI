@@ -48,3 +48,44 @@
 .border-radius-6 {
   border-radius: 6px;
 }
+
+/* Responsive Component Display */
+@media screen and (max-width: 768px) {
+  .component-display {
+    padding: 1rem;
+  }
+
+  .component-display-normal {
+    padding: 1rem;
+  }
+
+  .component-code {
+    max-height: 300px;
+  }
+
+  .component-code .code-snippet {
+    transform: scale(0.9);
+  }
+
+  .badge-icons {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .component-display {
+    padding: 0.5rem;
+  }
+
+  .component-display-normal {
+    padding: 0.5rem;
+  }
+
+  .component-code {
+    max-height: 250px;
+  }
+
+  .component-code .code-snippet {
+    transform: scale(0.8);
+  }
+}

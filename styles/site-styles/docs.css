@@ -30,3 +30,12 @@ i,
 span {
   background-color: inherit;
 }
+
+/* Responsive Docs Layout */
+@media screen and (max-width: 1024px) {
+  .main {
+    grid-template-areas:
+      "sidebar sidebar sidebar sidebar"
+      "components components components components" !important;
+  }
+}

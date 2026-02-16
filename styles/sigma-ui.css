@@ -47,3 +47,93 @@ main {
 .installation {
   padding-top: 5rem;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 0.5rem;
+  }
+
+  .hero {
+    min-height: 60vh;
+    padding: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero .m-t-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .hero .m-t-2 button {
+    width: 100%;
+  }
+
+  .installation {
+    padding-top: 3rem;
+  }
+
+  .installation h1 {
+    font-size: 1.75rem;
+  }
+
+  .installation p {
+    padding: 0 1rem;
+  }
+
+  .code-snippet {
+    height: 300px;
+  }
+
+  .img {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    min-height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.25rem;
+  }
+
+  .installation {
+    padding-top: 2rem;
+  }
+
+  .installation h1 {
+    font-size: 1.5rem;
+  }
+
+  .installation p {
+    font-size: 0.9rem;
+  }
+
+  .code-snippet {
+    height: 250px;
+  }
+
+  .img {
+    width: 90vw;
+  }
+}
