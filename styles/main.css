@@ -20,6 +20,11 @@
 @import "./components/list.css";
 @import "./components/toast.css";
 @import "./components/typography.css";
+@import "./components/modal.css";
+@import "./components/rating.css";
+@import "./components/chip.css";
+@import "./components/progress.css";
+@import "./components/tooltip.css";
 
 *,
 *:before,

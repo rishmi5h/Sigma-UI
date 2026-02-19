@@ -30,3 +30,17 @@ textarea {
   outline: none;
   box-shadow: 0 2px 6px var(--black);
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .input-field {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .input-field {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.75rem;
+  }
+}

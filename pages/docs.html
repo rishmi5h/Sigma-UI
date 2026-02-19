@@ -60,6 +60,21 @@
         <li class="list-no-style">
           <a class="link-no-style" href="#typography"> Typography </a>
         </li>
+        <li class="list-no-style">
+          <a class="link-no-style" href="#modal"> Modal </a>
+        </li>
+        <li class="list-no-style">
+          <a class="link-no-style" href="#rating"> Rating </a>
+        </li>
+        <li class="list-no-style">
+          <a class="link-no-style" href="#chip"> Chip </a>
+        </li>
+        <li class="list-no-style">
+          <a class="link-no-style" href="#progress"> Progress </a>
+        </li>
+        <li class="list-no-style">
+          <a class="link-no-style" href="#tooltip"> Tooltip </a>
+        </li>
       </ul>
     </aside>
     <div class="components m-r-4">
@@ -904,11 +919,377 @@
           </iframe>
         </div>
       </div>
+      <!-- Modal Component -->
+      <div id="modal" class="m-t-4">
+        <div class="component-intro m-t-4 m-b-2">
+          <h1 class="m-b-2">Modal</h1>
+          <p>
+            Modals are dialog overlays that require user interaction. They focus
+            attention on important content while disabling the rest of the page.
+          </p>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Modal</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">modal-overlay</span> with a
+            <span class="text-primary">modal</span> inside. Use
+            <span class="text-primary">data-modal-open</span> and
+            <span class="text-primary">data-modal-close</span> attributes
+            for open/close behavior.
+          </p>
+        </div>
+        <div class="component-display column p-3 m-b-2 m-r-4">
+          <button class="btn primary-btn" data-modal-open="#demo-modal">Open Modal</button>
+          <div class="modal-overlay" id="demo-modal">
+            <div class="modal">
+              <div class="modal-header">
+                <h2>Modal Title</h2>
+                <button class="modal-close" data-modal-close>
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>This is a modal dialog. You can put any content here.
+                  Click outside or press the X to close.</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn primary-outline-btn" data-modal-close>Cancel</button>
+                <button class="btn primary-btn" data-modal-close>Confirm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=728&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%250A%2520%2520data-modal-open%253D%2522%2523my-modal%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522modal-overlay%2522%2520id%253D%2522my-modal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EModal%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-close%2522%2520data-modal-close%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520content%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outline-btn%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520data-modal-close%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520data-modal-close%253EConfirm%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Rating Component -->
+      <div id="rating" class="m-t-4">
+        <div class="component-intro m-t-4 m-b-2">
+          <h1 class="m-b-2">Rating</h1>
+          <p>
+            Rating components allow users to provide feedback using star
+            ratings. Supports interactive and read-only modes.
+          </p>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Interactive Rating</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">rating</span> with
+            <span class="text-primary">fa-star</span> icons. Click stars to
+            set a rating.
+          </p>
+        </div>
+        <div class="component-display p-3 m-b-2 m-r-4">
+          <div class="rating">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span class="rating-value">0/5</span>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522rating-value%2522%253E0%252F5%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Read-only Rating with Sizes</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">rating-readonly</span> to disable
+            interaction. Use
+            <span class="text-primary">rating-lg</span> or
+            <span class="text-primary">rating-sm</span> for sizes.
+          </p>
+        </div>
+        <div class="component-display column p-3 m-b-2 m-r-4">
+          <div class="rating rating-readonly rating-lg m-b-2">
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="rating rating-readonly m-b-2">
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="rating rating-readonly rating-sm">
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520rating-readonly%2520rating-lg%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating%2520rating-readonly%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%2520...%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating%2520rating-readonly%2520rating-sm%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%2520...%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Chip Component -->
+      <div id="chip" class="m-t-4">
+        <div class="component-intro m-t-4 m-b-2">
+          <h1 class="m-b-2">Chip</h1>
+          <p>
+            Chips are compact elements that represent an input, attribute, or
+            action. Use them for tags, categories, or filters.
+          </p>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Chip Variants</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">chip</span> and combine with
+            <span class="text-primary">chip-primary</span>,
+            <span class="text-primary">chip-success</span>,
+            <span class="text-primary">chip-danger</span>,
+            <span class="text-primary">chip-warning</span> or
+            <span class="text-primary">chip-outline</span>.
+          </p>
+        </div>
+        <div class="component-display p-3 m-b-2 m-r-4" >
+          <span class="chip">Default</span>
+          <span class="chip chip-primary">Primary</span>
+          <span class="chip chip-success">Success</span>
+          <span class="chip chip-danger">Danger</span>
+          <span class="chip chip-warning">Warning</span>
+          <span class="chip chip-outline">Outline</span>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522chip%2522%253EDefault%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-primary%2522%253EPrimary%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-success%2522%253ESuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-danger%2522%253EDanger%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-warning%2522%253EWarning%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-outline%2522%253EOutline%253C%252Fspan%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Chip with Avatar and Dismiss</h3>
+          <p class="m-b-2">
+            Add an <span class="text-primary">img</span> for avatar and
+            <span class="text-primary">chip-close</span> for a dismiss button.
+          </p>
+        </div>
+        <div class="component-display p-3 m-b-2 m-r-4" >
+          <span class="chip chip-primary">
+            <img src="https://i.pravatar.cc/100" alt="avatar" />
+            Rishabh
+            <i class="fas fa-times chip-close"></i>
+          </span>
+          <span class="chip chip-success">
+            Design
+            <i class="fas fa-times chip-close"></i>
+          </span>
+          <span class="chip chip-outline">
+            CSS
+            <i class="fas fa-times chip-close"></i>
+          </span>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522chip%2520chip-primary%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522avatar.jpg%2522%2520alt%253D%2522avatar%2522%252F%253E%250A%2520%2520Rishabh%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520chip-close%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522chip%2520chip-success%2522%253E%250A%2520%2520Design%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520chip-close%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Progress Component -->
+      <div id="progress" class="m-t-4">
+        <div class="component-intro m-t-4 m-b-2">
+          <h1 class="m-b-2">Progress</h1>
+          <p>
+            Progress bars indicate the completion status of a task or process.
+            Available in multiple colors and sizes.
+          </p>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Progress Bars</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">progress-container</span> with a
+            <span class="text-primary">progress-bar</span> inside. Set width
+            via inline style to control progress.
+          </p>
+        </div>
+        <div class="component-display column p-3 m-b-2 m-r-4" style="width: 100%;">
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Primary</span>
+              <span>75%</span>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Success</span>
+              <span>100%</span>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar progress-bar-success" style="width: 100%;"></div>
+            </div>
+          </div>
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Warning</span>
+              <span>50%</span>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar progress-bar-warning" style="width: 50%;"></div>
+            </div>
+          </div>
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Danger</span>
+              <span>25%</span>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar progress-bar-danger" style="width: 25%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522progress-label%2522%253E%250A%2520%2520%253Cspan%253EPrimary%253C%252Fspan%253E%250A%2520%2520%253Cspan%253E75%2525%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522progress-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522progress-bar%2522%250A%2520%2520%2520%2520style%253D%2522width%253A%252075%2525%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522progress-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522progress-bar%2520progress-bar-success%2522%250A%2520%2520%2520%2520style%253D%2522width%253A%2520100%2525%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Progress Bar Sizes</h3>
+          <p class="m-b-2">
+            Use <span class="text-primary">progress-sm</span> for small or
+            <span class="text-primary">progress-lg</span> for large.
+          </p>
+        </div>
+        <div class="component-display column p-3 m-b-2 m-r-4" style="width: 100%;">
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Small</span>
+            </div>
+            <div class="progress-container progress-sm">
+              <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Default</span>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div style="width: 100%; background-color: inherit;">
+            <div class="progress-label">
+              <span>Large</span>
+            </div>
+            <div class="progress-container progress-lg">
+              <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522progress-container%2520progress-sm%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522progress-bar%2522%2520style%253D%2522width%253A60%2525%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522progress-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522progress-bar%2522%2520style%253D%2522width%253A60%2525%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522progress-container%2520progress-lg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522progress-bar%2522%2520style%253D%2522width%253A60%2525%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+      <!-- Tooltip Component -->
+      <div id="tooltip" class="m-t-4">
+        <div class="component-intro m-t-4 m-b-2">
+          <h1 class="m-b-2">Tooltip</h1>
+          <p>
+            Tooltips display informative text when users hover over an
+            element. Available in 4 positions: top, bottom, left, and right.
+          </p>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Tooltip Positions</h3>
+          <p class="m-b-2">
+            Include class
+            <span class="text-primary">tooltip-container</span> with
+            <span class="text-primary">tooltip-text</span> inside. Use
+            <span class="text-primary">tooltip-top</span>,
+            <span class="text-primary">tooltip-bottom</span>,
+            <span class="text-primary">tooltip-left</span>, or
+            <span class="text-primary">tooltip-right</span> for position.
+          </p>
+        </div>
+        <div class="component-display p-4 m-b-2 m-r-4" style="gap: 2.5rem;">
+          <div class="tooltip-container tooltip-top">
+            <button class="btn primary-btn">Top</button>
+            <span class="tooltip-text">Tooltip on Top</span>
+          </div>
+          <div class="tooltip-container tooltip-bottom">
+            <button class="btn primary-btn">Bottom</button>
+            <span class="tooltip-text">Tooltip on Bottom</span>
+          </div>
+          <div class="tooltip-container tooltip-left">
+            <button class="btn primary-btn">Left</button>
+            <span class="tooltip-text">Tooltip on Left</span>
+          </div>
+          <div class="tooltip-container tooltip-right">
+            <button class="btn primary-btn">Right</button>
+            <span class="tooltip-text">Tooltip on Right</span>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-top%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253ETop%253C%252Fbutton%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253E%250A%2520%2520%2520%2520Tooltip%2520on%2520Top%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-bottom%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EBottom%253C%252Fbutton%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253E%250A%2520%2520%2520%2520Tooltip%2520on%2520Bottom%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-left%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253ELeft%253C%252Fbutton%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253E%250A%2520%2520%2520%2520Tooltip%2520on%2520Left%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-right%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253ERight%253C%252Fbutton%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253E%250A%2520%2520%2520%2520Tooltip%2520on%2520Right%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="component-type m-t-4">
+          <h3 class="m-b-2">Example of Tooltip on Icons</h3>
+          <p class="m-b-2">
+            Tooltips work on any element. Here they're used on icon buttons.
+          </p>
+        </div>
+        <div class="component-display p-4 m-b-2 m-r-4" style="gap: 2.5rem;">
+          <div class="tooltip-container tooltip-top">
+            <i class="fas fa-home icon-btn"></i>
+            <span class="tooltip-text">Home</span>
+          </div>
+          <div class="tooltip-container tooltip-top">
+            <i class="fas fa-cog icon-btn"></i>
+            <span class="tooltip-text">Settings</span>
+          </div>
+          <div class="tooltip-container tooltip-top">
+            <i class="fas fa-trash icon-btn"></i>
+            <span class="tooltip-text">Delete</span>
+          </div>
+          <div class="tooltip-container tooltip-top">
+            <i class="fas fa-heart icon-btn"></i>
+            <span class="tooltip-text">Favorite</span>
+          </div>
+        </div>
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28199%2C198%2C247%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=42px&wc=true&wa=true&pv=27px&ph=37px&ln=false&fl=1&fm=Space+Mono&fs=14px&lh=220%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-top%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2520icon-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253EHome%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522tooltip-container%2520tooltip-top%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cog%2520icon-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522tooltip-text%2522%253ESettings%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
     </div>
   </div>
   <script src="../js/theme.js"></script>
   <script src="../js/input-validation.js"></script>
   <script src="../js/toast.js"></script>
+  <script src="../js/modal.js"></script>
+  <script src="../js/rating.js"></script>
 </body>
 
 </html>

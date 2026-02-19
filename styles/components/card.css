@@ -93,3 +93,33 @@ p {
   color: var(--white);
   opacity: 0.75;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .card {
+    margin: 1.5rem;
+  }
+
+  .horizontal-card {
+    flex-direction: column;
+    max-width: 20rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    margin: 1rem 0;
+  }
+
+  .vertical-card {
+    max-width: 100%;
+  }
+
+  .horizontal-card {
+    max-width: 100%;
+  }
+
+  .text-card {
+    max-width: 100%;
+  }
+}

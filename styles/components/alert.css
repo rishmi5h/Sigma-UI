@@ -30,3 +30,18 @@
   background-color: var(--danger);
   color: var(--danger-text);
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .alert {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .alert {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+}

@@ -1,0 +1,72 @@
+.progress-container {
+  width: 100%;
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 4px var(--shadow-black);
+}
+
+.progress-bar {
+  height: 1rem;
+  border-radius: 50px;
+  transition: width 0.4s ease;
+  background: linear-gradient(90deg, var(--primary-color), #9f67ff);
+}
+
+.progress-bar-success {
+  background: linear-gradient(90deg, var(--online), #2dd4a0);
+}
+
+.progress-bar-warning {
+  background: linear-gradient(90deg, var(--away), #ffb347);
+}
+
+.progress-bar-danger {
+  background: linear-gradient(90deg, var(--busy), #ff6b6b);
+}
+
+.progress-sm .progress-bar {
+  height: 0.5rem;
+}
+
+.progress-lg .progress-bar {
+  height: 1.5rem;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--grey);
+  background-color: inherit;
+}
+
+.progress-label span {
+  background-color: inherit;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .progress-bar {
+    height: 0.875rem;
+  }
+
+  .progress-lg .progress-bar {
+    height: 1.25rem;
+  }
+
+  .progress-label {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .progress-bar {
+    height: 0.75rem;
+  }
+
+  .progress-lg .progress-bar {
+    height: 1rem;
+  }
+}

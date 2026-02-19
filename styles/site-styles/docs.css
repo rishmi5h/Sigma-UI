@@ -9,6 +9,28 @@ html {
   grid-area: components;
 }
 
+.component-intro {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.component-intro p {
+  line-height: 1.6;
+  color: var(--grey);
+}
+
+.component-type {
+  padding-top: 0.5rem;
+}
+
+.component-type h3 {
+  color: var(--color);
+}
+
+.component-type p {
+  line-height: 1.5;
+}
+
 aside li {
   margin: 1.5rem;
   padding: 0.5rem 1rem;
@@ -37,5 +59,15 @@ span {
     grid-template-areas:
       "sidebar sidebar sidebar sidebar"
       "components components components components" !important;
+  }
+
+  .components {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .components {
+    padding: 0 0.5rem;
   }
 }
